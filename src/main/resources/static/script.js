@@ -4,7 +4,6 @@ var stompClient=null
 
     function sendMessage()
     {
-
         let jsonOb =
         {
             name:localStorage.getItem("name"),
